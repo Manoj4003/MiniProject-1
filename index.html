@@ -18,6 +18,9 @@
             <img src="/Images/logo.jpeg" alt="No image">
             <h3>Start <span>Up</span></h3>
         </div>
+       <div class="hamburger" onclick="toggleMenu()">☰</div>
+
+
         <div class="menubar">
             <ul>
                 <li><a href="#">Home</a></li>
@@ -148,9 +151,7 @@
                 </div>
 
            </div>
-
-
-               <div class="images">
+           <div class="images">
                  <div class="secondlayer">
                    
                     <div class="firstlayer">
@@ -176,7 +177,7 @@
                     </div>
                 </div>
 
-<div class="secondlayer">
+                    <div class="secondlayer">
                    
                     <div class="firstlayer">
                          <img src="/Images/img3.avif" alt="No image">
@@ -199,6 +200,8 @@
                     </div>
                 </div>
                </div>
+
+               
     </section>
     <section>
         <div class="fourthsection">
@@ -289,6 +292,13 @@
     </div>
   </div>
 </section>
+<script>
+  function toggleMenu() {
+    const menu = document.querySelector('.menubar');
+    menu.classList.toggle('show');
+  }
+</script>
+
 
 </body>
 </html>
